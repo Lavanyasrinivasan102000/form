@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
+    <title>login</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css"/>
 </head>
 <body>
-    <div class="registration-page">
-        <div class="registration-form"> 
-            <h1>Registration form</h1>
-            <form action="#" method="post">
-                <p>FullName :</p>
-                <input type="text" name="FullName" placeholder="FullName">
-                <p>UserName :</p>
-                <input type="text" name="UserName" placeholder="UserName">
-                <p>Email :</p>
-                <input type="email" name="email" placeholder="email">
-                <p>PassWord</p>
-                <input type="password" name="password" placeholder="password">
-                <button>Registration</button>
+    <div class="login-page">
+        <div class="registration-form">
+            <h1>Login Form</h1>
+            <form id="login-form" action="#" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter Username" required>
     
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required>
+    
+                <button type="submit">Login</button>
+    
+                <div class="links">
+                    <a href="../html/forgotpassword.html">Forgot Password?</a>
+                    <a href="../html/register.html">Create New User</a>
+                </div>
             </form>
         </div>
 
     </div>
     
-    
+    <script src="../javascript/index.js"></script>
 </body>
 </html>
