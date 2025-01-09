@@ -1,0 +1,152 @@
+*{
+    padding : 0 ;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Ensure full viewport height for the background image */
+body {
+    color: antiquewhite;
+    margin: 0;
+    height: 100vh; /* Full screen height */
+}
+
+/* Registration Page Background */
+.registration-page {
+    background: url('../assets/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%; /* Make sure it covers the full page */
+}
+
+/* Login Page Background */
+.login-page {
+    background: url('../assets/bg2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%; /* Make sure it covers the full page */
+}
+
+/* Forgot Password Page Background */
+.forgot-password-page {
+    background: url('../assets/bg3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%; /* Make sure it covers the full page */
+}
+
+
+
+.registration-form{
+
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 399px  ;
+   
+    
+}
+.registration-form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.registration-form p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+.registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width :100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border:0;
+    border-radius: 5px;
+    background-color: antiquewhite;
+
+}
+
+.registration-form button:hover{
+    color: red;
+
+}
+
+/* Style for the links container */
+.links {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;  /* Align links horizontally */
+    justify-content: space-between; /* Add space between the links */
+    margin-top: 20px; /* Add top margin for spacing */
+}
+
+/* Style individual links */
+.links a {
+    color: antiquewhite;  /* Default color for links */
+    text-decoration: none;  /* Remove underline */
+    padding: 5px 10px;  /* Add some padding for better spacing */
+    border-radius: 5px;  /* Round the corners */
+    transition: all 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.links a:hover {
+    color: red;  /* Change the link color on hover */
+    background-color: rgba(255, 255, 255, 0.2);  /* Add background on hover */
+}
+
+
+.forgot-password-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 399px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.forgot-password-form h1 {
+    font-size: 30px;
+    color: antiquewhite;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.forgot-password-form input {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.forgot-password-form button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+.forgot-password-form button:hover {
+    background-color: #f1c40f;
+}
+
+
+
